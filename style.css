@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d3e8fa;
+  height: 6.5rem;
+  padding: 0 8rem;
+  padding-top: 20px;
+}
+
+.logo {
+  height: 8rem;
+  padding-left: 0rem;
+  padding-top: 0.5rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: blue;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover {
+  color: #228be6;
+}
